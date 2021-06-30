@@ -1,4 +1,5 @@
-FROM vitess/base as base
+ARG TAG=latest
+FROM vitess/base:${TAG} as base
 
 FROM node:14.5.0-stretch-slim as node
 

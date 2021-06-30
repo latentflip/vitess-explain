@@ -139,3 +139,15 @@ This will output json:
                 "BindVars": {
   ...
 ```
+
+### Updating vitess
+
+Since vitess v10, we will release versions of this docker image with matching tags to the vitess release.
+
+Currently this is a manual process. To build a matching version of this image from an image on [docker hub for `vitess/base`](https://hub.docker.com/r/vitess/base/tags?page=1&ordering=last_updated) do this:
+
+
+```
+docker build --build-arg "TAG=v10.0.0" -t latentflip/vitess-explain:v10.0.0 .
+docker push latentflip/vitess-explain:v10.0.0
+```
