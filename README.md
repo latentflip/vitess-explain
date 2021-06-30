@@ -19,7 +19,7 @@ First, you'll need a directory somewhere (in this example `./data`) with three f
 The image comes bundled with some demo data, so you can just do:
 
 ```
-docker run latentflip/vitess-explain`
+docker run latentflip/vitess-explain
 ```
 
 to see some output
