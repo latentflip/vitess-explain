@@ -1,6 +1,6 @@
 # vitess-explain
 
-This is a simple wrapper around the vitess/vtexplain docker image to make running explain queries easier.
+This is a simple wrapper around the vitess/vtexplain docker image to make running explain queries easier. 
 
 ### Setup
 
